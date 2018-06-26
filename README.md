@@ -21,3 +21,42 @@ We have big brains, lets put them to use.
 
 Thx.
 -Christian
+
+EDIT 6/26:
+
+Here is what I envision for the site
+The home page will have a navbar with links to Home, About, Contact, Format(Dropdown Menu with Standard, Modern, Legacy, Limited, then a break and a link to other formats), and a search function (by deck, name, event, format)
+
+The home page will have a link to the most recent standard event, most recent modern event, a random match, and top 8 matches of the month. 
+
+The About will talk about the website and the team members so rn just us three, but potentiall more people 
+
+When you click on a format button, it will take you to a screen that shows the events of that format from most recent to oldest, most likely seperated on different pages,
+After you click on these events, you will be taken to a screen that shows all 20ish rounds with either a link or embedded video. 
+
+The search function will bring you to a page that will list relevant results by: (FORMAT, DECK, PLAYER, EVENT)
+So Like if your search "Jeskai"
+
+Standard: Jeskai Flash
+          Jeskai Black
+          Jeskai Burn
+          Jeskai Ascendency Combo
+          
+Modern:
+        Jeskai Control
+         JEskai Ascendency
+         ...
+Legacy:
+        Jeskai Delver
+        Jeskai Control
+Vintage:
+Pauper Ect.
+
+Clicking on these decks shoudl bring you to a search page that has all of the mtches listed by event and name of player
+
+POST RELEASE THINGS:
+USer area
+Favorite videos, voting
+video submission for events
+articles possibly
+A section that grabs articles from TCG, CFB, SCG, Hipsters, Mothership, etc. 
