@@ -7,14 +7,11 @@ import {DomSanitizer, SafeResourceUrl} from "@angular/platform-browser";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  // videoURL: string;
-  // safeURL: SafeResourceUrl;
-  constructor(private _sanitizer: DomSanitizer){
-    // this.videoURL = 'http://player.twitch.tv/?channel=magic';
+
+  constructor(){
 
   }
 
   ngOnInit() {
-    // this.videoURL = 'http://player.twitch.tv/?channel=calebdmtg';
   }
 }

@@ -1,0 +1,10 @@
+.app_home__title {
+  text-align:center;
+  padding-top: 57px;
+  font-size: 100px;
+}
+
+.app-home__stream-viewer {
+  width: 420px;
+  height: 315px;
+}
