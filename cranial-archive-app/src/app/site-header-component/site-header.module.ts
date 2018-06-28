@@ -1,7 +1,14 @@
 import { SiteHeaderComponent } from './site-header.component';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import {MatButtonModule, MatToolbarModule} from "@angular/material";
+import {
+  MatButtonModule,
+  MatFormFieldModule,
+  MatMenuModule, MatSelectModule,
+  MatToolbarModule
+} from "@angular/material";
+import {BrowserModule} from "@angular/platform-browser";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -9,8 +16,13 @@ import {MatButtonModule, MatToolbarModule} from "@angular/material";
   ],
   imports: [
     MatButtonModule,
+    BrowserModule,
     MatToolbarModule,
-    RouterModule
+    MatMenuModule,
+    MatSelectModule,
+    MatFormFieldModule,
+    RouterModule,
+    BrowserAnimationsModule
   ],
   exports: [SiteHeaderComponent],
   entryComponents: [SiteHeaderComponent],

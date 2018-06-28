@@ -18,7 +18,6 @@
 	 0 6px 10px 0 rgba(0,0,0,.14),
 	 0 1px 18px 0 rgba(0,0,0,.12);
 }
-
 .site-header_home-button {
 	background-color: blue;
 	color: white;
@@ -29,10 +28,29 @@
 	color: white;
 }
 
-.site-header_home-button-container {
+.site-header_about-button-container {
+  padding-left: 20px;
+}
+
+.site-header_format-buttons-container {
+  position: absolute;
+}
+
+.site-header_formats-selector-button {
+  background-color: blue;
+  color: white;
+  width: 70px;
 
 }
 
-.site-header_about-button-container {
-	padding-left: 20px;
+.site-header_formats-button-container {
+  padding-left: 20px;
+}
+
+.site-header_format-button{
+  color:black;
+}
+
+.site-header_list-of-formats {
+  background-color: green;
 }
