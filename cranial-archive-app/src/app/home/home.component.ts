@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {VideoService} from "../services/video.service";
 
 @Component({
   selector: 'app-home',
@@ -17,6 +18,10 @@ import {Component, OnInit} from '@angular/core';
         </mat-card-content>
       </mat-card>
       <iframe src="http://player.twitch.tv/?channel=magic" class="app-home_stream-viewer"></iframe>
+      <div *ngFor="let video of videos">
+        <a href="{{video.url}}">click me dad</a>
+
+      </div>
     </div>
   `,
   styleUrls: ['./home.component.css']
@@ -24,13 +29,22 @@ import {Component, OnInit} from '@angular/core';
 export class HomeComponent implements OnInit {
 
   standardEvents: string[];
-  constructor() {
+  videos: VideoResponse[];
+  constructor(private videoService: VideoService) {
   }
 
   ngOnInit() {
     this.standardEvents = [
       '2018 US Nationals - Columbus Ohio', '2018 Starcitygames Atlanta Open'
-    ]
+    ];
+    this.getVideosByFormat('cube');
+  }
+
+  getVideosByFormat(format: string){
+    this.videoService.getVideosByFormat(format).subscribe((result: VideoResponse[]) => {
+       this.videos = result;
+    });
+
   }
 
 }
